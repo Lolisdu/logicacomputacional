@@ -1,0 +1,25 @@
+//Exercicios de Vetores
+
+programa {
+  funcao inicio() {
+    cadeia Vetor [5] //declara um vetor de 5 posições
+    cadeia Matriz [5][3] //declara matriz de 5 linhas e 3 colunas
+
+    cadeia frutas [4]
+    inteiro contador= 0
+
+    frutas[0] = "Maça"
+    frutas[1] = "Melancia"
+    frutas[2] = "Banana"
+    frutas[3] = "Pera"
+    escreva(frutas[])
+    cadeia cesta [][] = {{"Maça", "100"}, {"Melancia", "200"},{"Banana", "100"}, {"Pera", "200"}}
+
+  faca{
+    escreva(" Frutas: " + cesta[contador][0] + " Quantidade: " +cesta[contador][1] + "\n")
+    contador++
+
+  }enquanto(contador<=3)
+
+  }
+}
